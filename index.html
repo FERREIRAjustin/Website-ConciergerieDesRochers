@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conciergerie des Rochers</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#" class="logo"><img src="image/Logo1.png" alt="Conciergerie des Rochers"></a>
+        <div class="nav-links">
+            <ul>
+                <li class="home"><a href="#">Home</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#about">A propos</a></li>
+                <li><a href="#contact">Nous contacter</a></li>
+            </ul>
+        </div>
+
+        <img src="image/menu-btn2.png" alt="menu hamburger" class="menu-hamburger">
+
+    </nav>
+    
+    <header>
+        <div class="titre">
+            <h1>Conciergerie</h1>
+            <h2>Des Rochers</h2>
+        </div>
+    </header>
+
+    <main>
+        <section id="service">
+            <div class="title-container">
+                <div class="line"></div>
+                    <h2>Nos Services</h2>
+                <div class="line"></div>
+            </div>
+
+        </section>
+
+        <section id="about">
+            <div class="title-container">
+                <div class="line"></div>
+                    <h2>A propos de nous</h2>
+                <div class="line"></div>
+            </div>
+            <div class="texte1">
+                <p class="Apropos">Notre société basée sur penmarc’h a pour secteur d’activité le service aux particuliers et aux entreprises.
+                    Nous assurons, pour vous, tous les petits travaux de bricolage et de ménage à votre domicile.
+                    Laissez nous, réaliser a votre place, le ménage, l’entretien de votre jardin, les réparations, et autres petits bricolages de la maison.
+                    Nous nous déplaçons pour définir ensemble les travaux a effectuer et rédiger un devis gratuit.
+                </p>
+                
+                <div class="card">
+                    <div class="card-image"></div>
+                      <div class="card-description">
+                        <p class="text-title"> Card Title</p>
+                        <p class="text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="title-container">
+                <div class="line"></div>
+                    <h2>Contactez nous</h2>
+                <div class="line"></div>
+            </div>
+            <form method="post" action="mail.php">
+                <label for="name">Nom:</label>
+                <input type="text" name="name" id="name" required placeholder="Nom" />
+                 
+                <label for="subject">Objet Du Message:</label>
+                <input type="text" name="subject" id="subject" required placeholder="Sujet" />
+                 
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required placeholder="email@exemple.com" />
+                 
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" required></textarea>
+                 
+                <input type="submit" value="Envoyer Mon Message" />
+            </form>
+        </section>
+
+    </main>
+    
+</body>
+
+<script src="script.js"></script>
+
+</html>
